@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</html>
+<h1>Opdracht 2 - Onderzoeksvragen</h1>
+
+
+<h2>1. Wat is het verschil met de script tag boven in te laden in de &lt;head&gt; tag t.o.v. onder inladen aan het einde van je HTML tag?</h2>
+<p>
+Wanneer je een <code>&lt;script&gt;</code>-tag in de <code>&lt;head&gt;</code>-sectie plaatst, wordt het script geladen en uitgevoerd vóórdat de pagina volledig is weergegeven.
+Dit kan ertoe leiden dat de pagina trager lijkt, omdat de browser moet wachten tot het script klaar is.
+Als je de <code>&lt;script&gt;</code>-tag onderaan de pagina zet, vlak voor <code>&lt;/body&gt;</code>, wordt eerst de HTML geladen en daarna pas je JavaScript.
+Hierdoor wordt de pagina sneller zichtbaar voor de gebruiker.
+</p>
+
+
+<h2>2. Wat doet het attribuut "defer" in de &lt;script&gt; tag?</h2>
+<p>
+Het <code>defer</code>-attribuut zorgt ervoor dat het script wordt gedownload terwijl de HTML verder geladen wordt, maar pas wordt uitgevoerd nadat de volledige HTML-pagina is ingeladen.
+Dit voorkomt blokkeringen in het laden van de pagina en zorgt ervoor dat scripts in de juiste volgorde worden uitgevoerd.
+</p>
+
+
+<h2>3. Wat is het verschil tussen HTML en JavaScript?</h2>
+<p>
+HTML (HyperText Markup Language) wordt gebruikt om de structuur en inhoud van een webpagina vast te leggen, zoals tekst, afbeeldingen en knoppen.
+JavaScript is een programmeertaal die wordt gebruikt om webpagina's interactief en dynamisch te maken, bijvoorbeeld om animaties te maken, knoppen te laten reageren of gegevens op te halen.
+</p>
+
+
+<h2>Bonus: Wat is het verschil tussen innerHTML en innerText?</h2>
+<p>
+<code>innerHTML</code> geeft HTML inclusief tags terug of voegt het toe, terwijl <code>innerText</code> alleen de zichtbare tekst toont en geen HTML-tags verwerkt.
+InnerHTML kan dus HTML-elementen toevoegen, innerText werkt alleen met tekst.
+</p>
+</body>
+</html>
