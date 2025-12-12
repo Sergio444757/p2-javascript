@@ -1,0 +1,15 @@
+ #blok {
+      width: 200px;
+      height: 200px;
+      background-color: lightcoral;
+      margin: 50px auto;
+      transition: all 0.3s ease;
+    }
+    #tekst {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin-top: 20px;
+      font-size: 20px;
+      color: darkblue;
+      display: none;
+    }
