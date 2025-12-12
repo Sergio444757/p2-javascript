@@ -1,0 +1,29 @@
+ body { font-family: sans-serif; margin: 20px; text-align: center; }
+    #pizzaTeller { font-size: 24px; font-weight: bold; margin-bottom: 10px; }
+    #bericht { margin-bottom: 20px; font-style: italic; }
+ 
+   
+    .overlay {
+      position: fixed;
+      inset: 0;                
+      background: rgba(0,0,0,0.8);
+      display: none;            
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;            
+    }
+ 
+    .overlay--open { display: flex; }
+ 
+    .winpanel {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      width: 90%;
+      max-width: 360px;
+    }
+ 
+    .groen { color: green; }
+    .oranje { color: orange; }
+    .rood { color: darkred; }

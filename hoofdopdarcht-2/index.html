@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizza Clicker</title>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <h2>🍕 Pizza Clicker</h2>
+  <div id="pizzaTeller" class="groen">0 pizza!</div>
+  <div id="bericht"></div>
+  <button onclick="klikPizza()">Give it to me!</button>
+  <button onclick="reset()">Reset</button>
+ 
+  <div id="overlay" class="overlay" aria-hidden="true">
+    <div class="winpanel">
+      <h1>YOU WON!</h1>
+      <p>Je hebt 10 pizza’s of meer gehaald 🎉</p>
+      <button onclick="playAgain()">Play again!</button>
+    </div>
+  </div>
+ 
+  
+ 
+</body>
+</html>
+ 
