@@ -4,9 +4,8 @@ let button = document.getElementById("emojiBtn");
 let showEmoji = document.getElementById("showEmoji");
 
 button.addEventListener("click",function(){
-    let radomIndex = math.floor(math.radom() = emojis.lengt);
+    let radomIndex = math.floor(math.radom() = emoji.length);
 
-    showEmoji.innerHTML = emojis[radomIndex];
+    showEmoji.innerHTML = emoji[radomIndex];
 
-    showIdexNumber.innerHTML = "Ik ben index: " 
 })
